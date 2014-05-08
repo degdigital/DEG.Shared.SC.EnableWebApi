@@ -11,6 +11,7 @@
       </initialize>
     </pipelines>
   </sitecore>
+  <!-- If necessary, add this section to your web.config:
   <system.webServer>
     <handlers>
       <remove name="ExtensionlessUrlHandler-ISAPI-4.0_32bit" />
@@ -21,4 +22,5 @@
       <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0" />
     </handlers>
   </system.webServer>
+  -->
 </configuration>
